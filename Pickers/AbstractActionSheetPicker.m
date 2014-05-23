@@ -32,7 +32,7 @@
 
 @property (nonatomic, strong) UIBarButtonItem *barButtonItem;
 @property (nonatomic, strong) UIView *containerView;
-@property (nonatomic, unsafe_unretained) id target;
+@property (nonatomic, weak) id target;
 @property (nonatomic, assign) SEL successAction;
 @property (nonatomic, assign) SEL cancelAction;
 @property (nonatomic, strong) UIActionSheet *actionSheet;
